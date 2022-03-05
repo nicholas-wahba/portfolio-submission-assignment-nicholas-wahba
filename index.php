@@ -2,11 +2,10 @@
     <head>
         <title>Psychic Game</title>
             </head>
-    <h2>How To Play:</h2>
+    <h1>How To Play:</h1>
         <p>There are 10 stages and your task is correctly guess what number the "crystal ball" is going to predict!</p>
-        <p>If you guess a number incorrectly in ANY stage, then you'll need to start back to Stage 1!</p>
-        <p>There are 10 stages and your task is correctly guess what number the "crystal ball" is going to predict!</p>
-        <p>If you guess a number incorrectly in ANY stage, then you'll need to start back to Stage 1!</p>
+        <p>If you guess a number incorrectly in <u>ANY</u> stage, then you'll need to start back to Stage 1!</p>
+        <p>Have Fun!</p>
     <body>
         <br>
         <form action = "index.php" method = "POST">
@@ -23,8 +22,8 @@
             <input type = "submit">
         </form>
         <br>
-    <h3>Crystal Ball Predictor</h3>
-        <p>This will general the "crystal ball's" number!</p>
+    <h2>🔮Crystal Ball Predictor🔮</h2>
+        <p>This section will generate the "crystal ball's" number!</p>
         <?php
             if(isset($_POST["Stage1"])){
                 echo("The number that was chosen was: " . rand(1,5) . "</p>");
