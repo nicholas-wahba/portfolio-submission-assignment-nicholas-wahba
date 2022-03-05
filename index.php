@@ -5,6 +5,7 @@
     <h1>How To Play:</h1>
         <p>There are 10 stages and your task is correctly guess what number the "crystal ball" is going to predict!</p>
         <p>If you guess a number incorrectly in <u>ANY</u> stage, then you'll need to start back to Stage 1!</p>
+        <p>Once you complete a stage, please choose the next stage seperately, <u>DO NOT CLICK ON MORE THAN ONE STAGE</u>! This ruins the concept of the game!</p>
         <p>Have Fun!</p>
     <body>
         <br>
